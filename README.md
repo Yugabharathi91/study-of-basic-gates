@@ -64,16 +64,64 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module two (a,b,y1,y2,y3, y4,у5,уб,у7);
+input a,b;
+output y1,y2,y3, y4,у5,у6,у7;
+and g1 (y1,a,b);
+or g2 (y2,a, b);
+not g3 (y3,a);
+nand g4 (y4, a,b) ;
+nor g5 (y5,a, b);
+xor g6 (y6, a,b);
+xnor g7 (y7,a, b) ;
+endmodule
+```
+![WhatsApp Image 2025-03-21 at 09 12 04_e1c43496](https://github.com/user-attachments/assets/fd59e686-f76e-459f-89ca-a62f3c36f45a)
 
- Developed by: RegisterNumber: 
+ Developed by: Yugabharathi M
+ RegisterNumber: 212224230314
  
 **Logic symbol & Truthtable**
 
+AND gate
+
+![WhatsApp Image 2025-03-22 at 21 17 19_66078078](https://github.com/user-attachments/assets/0530ae8d-626e-410a-8da1-80eebc1b7d9d)
+
+OR gate
+
+![WhatsApp Image 2025-03-22 at 21 17 19_f8a5c266](https://github.com/user-attachments/assets/59f3e22e-1384-4f06-a93b-2446be4adb75)
+
+NOT gate
+
+![WhatsApp Image 2025-03-22 at 21 17 18_fee78f41](https://github.com/user-attachments/assets/ab195da6-6aac-4c9d-9841-50dc2057464c)
+
+NAND gate
+
+![WhatsApp Image 2025-03-22 at 21 17 19_954a72be](https://github.com/user-attachments/assets/5569154b-6772-4138-95c8-e014a5809332)
+
+NOR gate
+
+![WhatsApp Image 2025-03-22 at 21 17 20_0e5e4374](https://github.com/user-attachments/assets/c0fce2e9-07f5-473e-891d-9fdfe38c7c4d)
+
+Ex-OR gate
+
+![WhatsApp Image 2025-03-22 at 21 17 18_a445c601](https://github.com/user-attachments/assets/fe249478-1586-4d8d-b31d-87e48ec1dbc2)
+
+Ex-NOR gate
+
+![WhatsApp Image 2025-03-22 at 21 17 20_f92f5b1a](https://github.com/user-attachments/assets/10f62567-c70c-4170-98c2-17f1c2a30ec8)
+
 **RTL realization Output:** 
+
+
+![WhatsApp Image 2025-03-21 at 09 12 06_bf88e06f](https://github.com/user-attachments/assets/88765b0f-456c-46e7-84de-2d0acb8049db)
 
 **RTL**
 
+
+![WhatsApp Image 2025-03-21 at 09 12 07_fec2a634](https://github.com/user-attachments/assets/94649f12-6348-4ff0-bf63-90a5bf439e16)
+
 **Result:**
-
-
+Thus the Basic digital Ics and the verification of truthtable for 
+different logic gates where studied and successfully realized using Verilog
